@@ -1,0 +1,736 @@
+*{  
+margin: 0;
+padding: 0;  
+list-style: none;
+text-decoration: none;
+line-height: 1,5;
+}
+
+h2{
+font-family: 'Roboto Condensed', sans-serif;    
+}
+
+h3{
+text-align: center;
+margin: 0;
+padding: 0;
+font-family: 'Cuprum', sans-serif; 
+color: black;
+}
+
+p{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.p_text{
+position: relative;  
+z-index: 1;
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+text-indent: 35px; 
+text-align: justify; 
+}
+
+input[type="text"]{
+font-size: 18px;
+text-indent: 5px;
+height: 35px;  
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+#wrap {
+  min-height: 100%;
+}
+.main{
+  padding-bottom: 100px;
+  /*Высота футера*/
+}
+footer {
+  padding: 30px 0 10 0;
+  margin-top: -100px;
+  min-height: 70px;
+  height: 6%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+footer p{
+padding: 15px 0;	
+}
+
+
+.width1024{
+position: relative;	
+z-index: 1;
+width: 1024px;
+margin: 0 auto;	
+}
+
+.Top_Menu{  
+width: 100%;
+height: 40px;
+background-color: #dddddd;  
+}
+
+.Top_Menu ul{
+float: right;  
+}
+
+.Top_Menu ul li{
+position: relative;  
+display: inline-block;  
+
+}
+
+.Top_Menu ul li a{
+display: block;
+padding: 11px 10px;
+margin-left: -4px; 
+transition: 0.3s;
+color: black;
+font-family: 'Cuprum', sans-serif;
+cursor: pointer;
+}
+
+.Top_Menu ul li:hover ul{
+display: inline-block;
+}
+
+.Top_Menu ul li a:hover{
+color: darkorange;  
+}
+
+.Top_Menu ul li ul{
+display: none;
+position: absolute;
+left: 0;
+top: 40px;  
+background-color: white;
+}
+
+.Top_Menu ul li ul li{
+  padding-left: 5px;
+  width: 210px;
+  border: 1px solid silver;
+}
+
+
+.Emblem{
+position: relative;  
+}
+
+.Emblem img{
+float: left;
+}
+
+.Emblem h2{
+font-family: 'Dancing Script', cursive;
+position: absolute;
+left: 100px;  
+top: 50px;
+}
+
+.Shap{
+width: 100%;
+height: 130px;
+background-color: #f4f4f4;  
+}
+
+.Inpblock{
+position: absolute;
+top: 45px;
+left: 330px;
+}
+
+.Inpblock ul li{
+  margin-left: -4px;
+display: inline-block;
+}
+
+.Inpblock input[type="text"]{
+font-size: 12px;
+height: 35px;
+text-indent: 5px;
+width: 300px;
+}
+
+.Inpblock input[type="submit"]{
+background-color: darkorange;
+border: none;
+padding: 9px 18px 10px 18px;
+cursor: pointer; 
+font-family: 'Cuprum', sans-serif;
+}
+
+input[type="text"]:focus { outline: none; }
+
+.Korz{
+position: absolute;
+left: 780px;
+top: 53px;  
+}
+
+.Korz img{
+position: absolute;
+left: -20px;
+top: -2px;  
+}
+
+.Korz ul li{
+display: inline-block;  
+}
+
+.Main_Menu{
+position: relative;
+width: 100%;
+background-color: black;  
+height: 40px;
+z-index: 50000000000;
+}
+
+.LevelOne li{
+position: relative;
+display: inline-block; 
+margin-left: -4px; 
+}
+
+.LevelOne li a{
+  position: relative;
+display: block;
+padding: 11px 20px;
+color: white;
+transition: 0.5s; 
+font-family: 'Cuprum', sans-serif;
+cursor: pointer;
+}
+
+.LevelOne li a:hover{
+background-color: darkorange;
+color: black; 
+}
+
+.LevelOne li:hover ul{
+display: block;  
+}
+
+.LevelOne li ul{
+display: none;
+position: absolute;
+left: 0;
+top: 40px;  
+ box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, .2);
+ background-color: white;
+}
+
+.LevelOne li ul li{
+position: relative;  
+  margin-left: 0;
+display: block;
+padding: 0;
+border-bottom: 1px solid rgb(234,234,234);
+}
+
+.LevelOne li ul li a{
+color: black;
+}
+
+.tt li{
+width: 135px;
+}
+
+.mm li{
+width: 270px;  
+}
+
+
+
+.title {
+      font-family: 'PT Sans Narrow', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 2px;
+    background-color: silver;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+
+.Menu_Main_Page {
+margin-top: 10px; 
+padding-bottom: 30px; 
+}
+
+.Menu_Main_Page li{
+padding: 8px;  
+
+display: inline-block;
+width: 200px;
+margin-left: 27px;  
+margin-top: 20px;
+}
+
+.Menu_Main_Page li img{
+margin-left: 27px;
+height: 150px;
+width: 140px;
+display: block;
+}
+
+.Menu_Main_Page li a:hover h3{
+color: darkorange;  
+}
+
+.Mens_Tovar li{
+position: relative;
+display: inline-block;
+height: 340px;
+width: 230px;
+border: 1px solid rgb(225,225,225);
+margin-top: 15px;
+margin-left: 17px;
+}
+
+.Mens_Tovar li img{
+position: absolute;
+left: 25px;
+top: 8px;
+transition: 0.5s;  
+}
+
+.Mens_Tovar li img:hover{
+height: 170px; 
+width: 180px;
+margin-left: -5px;
+margin-top: -5px;
+}
+
+.Mens_Tovar li div{
+position: relative;
+top:200px;
+padding: 0 15px;
+}
+
+.Mens_Tovar li div .ss1{
+font-size: 18px; 
+position: absolute;
+font-weight: bold;
+color: black;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.Mens_Tovar li div .ss1:hover{
+text-decoration: underline;  
+}
+
+.Mens_Tovar li div .ss2{
+  float: left;
+font-size: 16px; 
+cursor: pointer;
+padding: 6px 15px;
+font-weight: bold;
+color: white;
+font-family: 'PT Sans Narrow', sans-serif;
+transition: 0.5s;
+background-color: black;
+}
+
+.Mens_Tovar li div .ss2:hover{
+background-color: orange;
+color: white;
+}
+
+.Mens_Tovar li div .ss3{
+  float: left;
+font-size: 16px; 
+margin-left: 15px;
+cursor: pointer;
+padding: 6px 15px;
+font-weight: bold;
+color: white;
+font-family: 'PT Sans Narrow', sans-serif;
+transition: 0.5s;
+background-color: black;
+}
+
+.Mens_Tovar li div .ss3:hover{
+background-color: orange;
+color: white;
+}
+
+.Mens_Tovar li div p{
+color: darkorange; 
+font-size: 16px;
+font-weight: bold;
+
+margin-top: 18px;
+}
+
+.News li{
+padding: 20px;  
+width: 980px;
+height: 210px;
+border-bottom: 1px solid rgb(220,220,220);
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.News li:first-child{
+  border-top: 1px solid rgb(220,220,220);
+}
+
+.News li img{
+position: absolute; 
+}
+
+.News li div{
+position: relative;
+left: 300px;
+width: 690px; 
+height: 230px; 
+}
+
+.News li p{
+margin-top: 5px;
+line-height: 1.5;
+text-indent: 37px; 
+text-align: justify;
+}
+
+.News li a{
+padding: 8px 26px;
+background-color: black;
+color: white;
+font-weight: bold;
+transition: 0.5s;  
+border-radius: 5px;font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.News li a:hover{
+background-color: orange;
+color: white;  
+}
+
+.lefting{
+float: left;
+margin: 9px 9px 5px 0;  
+}
+
+.righting{
+float: right;
+margin: 9px 0 5px 9px;  
+}
+
+.Kont li{
+display: inline-block;
+text-align: center; 
+margin-top: 50px;
+width: 335px; 
+font-size: 19px;
+}
+
+.Kont li b{
+font-family: 'Cuprum', sans-serif;  
+}
+
+.Kont li p{
+text-decoration: underline;  
+}
+
+.cntr{
+margin-top: 40px;
+text-align: center;  
+}
+
+.cntr b{
+  font-family: 'Cuprum', sans-serif;  
+  font-size: 18px;
+}
+
+.cntr p{
+text-decoration: underline;  
+}
+
+.cntr2{
+margin-top: 40px;
+text-align: center; 
+  font-family: 'Cuprum', sans-serif;   
+}
+
+.cntr2 b{
+  font-family: 'Cuprum', sans-serif;  
+  font-size: 18px;
+}
+
+.Tov_Photo{
+position: absolute;
+height: 300px;
+width: 430px;
+}
+
+.Tov_Photo .sss1{
+position: absolute;
+left: 95px;
+top: 0;
+border: 1px solid rgb(233,233,233);
+padding: 10px;
+}
+
+.Tov_Infos ul{
+position: absolute;
+left: 0;
+top: 0;  
+}
+
+.Tov_Photo ul li{
+
+border: 2px solid white;
+width: 70px;
+padding: 8px;
+margin-top: 10px;
+}
+
+.Tov_Photo ul li:first-child{
+margin-top: 0;  
+}
+
+.Tov_Photo ul li:hover{
+border: 2px solid #51afe2;
+cursor: pointer;  
+}
+
+
+.Tov_Infos{
+position: relative;
+margin-left: 455px;  
+height: 300px;
+width: 500px;
+}
+
+.Tov_Infos span{
+  padding: 3px;
+ font-family: 'Cuprum', sans-serif;  
+ background-color: #fbefab;
+}
+
+.Tov_Infos b{
+font-size: 32px;
+font-family: 'Cuprum', sans-serif;    
+}
+
+.Toch_Info{
+margin-top: 80px;
+} 
+
+.Toch_Info li{
+position: relative;  
+width: 494px; 
+padding: 10px 3px;
+border-bottom: 1px solid rgb(234,234,234);
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.Toch_Info li:first-child{
+border-top: 1px solid rgb(234,234,234); 
+}
+
+.Toch_Info li:nth-child(2n){
+background-color: rgb(244,244,244);
+}
+
+.Toch_Info li:nth-child(2n+1){
+background-color: rgb(253,253,253);
+}
+
+.Tov_Infos a{
+  position: relative;
+background-color: orange;
+padding: 15px 50px;
+text-align: center;  
+font-family: 'Cuprum', sans-serif;   
+cursor: pointer;
+transition: 0.5s;
+} 
+
+.Tov_Infos a:hover{
+background-color: black;
+color: white;  
+}
+
+.News_PH{
+width: 500px;
+height: 400px; 
+margin: 0 auto;
+}
+
+.dts{
+border: 1px solid rgb(205,205,205);
+color: rgb(215,215,215); 
+padding: 3px; 
+}
+
+.Block_avtoriz{
+float: left;
+width: 380px;
+margin-left: 70px; 
+padding: 10px 25px;
+border: 1px solid silver;
+}
+
+.Block_Register{
+width: 380px; 
+margin-left: 560px;
+border: 1px solid silver;
+padding: 10px 25px;
+}
+
+.Block_avtoriz h2, .Block_Register h2{
+  text-align: center;
+}
+
+.Block_avtoriz b, .Block_Register b{
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.Block_avtoriz input[type="submit"], .Block_Register input[type="submit"]{
+  margin-left: 25px;
+padding: 10px 15px;
+color: white;
+font-family: 'PT Sans Narrow', sans-serif;
+border: none;
+background-color: black;
+font-size: 16px;
+cursor: pointer;
+transition: 0.5s;
+}
+
+.gr{
+padding-top: 10px;  
+margin-left: -25px;
+margin-bottom: -10px;
+height: 50px; 
+background-color: rgb(240,240,240);
+width: 430px;  
+}
+
+.Block_avtoriz input[type="submit"]:hover, .Block_Register input[type="submit"]:hover{
+background-color: darkorange;
+color: black;  
+}
+
+.st1{
+position: absolute;
+top: -20px;
+left: 760px;
+}
+
+
+
+
+
+
+table{
+margin-top: 20px; 
+width: 100%;
+border-collapse: collapse;
+}
+
+td,th{
+border: 1px solid silver;
+
+}
+
+td{
+padding: 14px 6px; 
+}
+
+th{
+text-align: center;
+padding: 10px;
+background-color: rgb(234,234,234);
+color:black;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.isss{
+float:left;
+background-color: black;
+color: white;
+margin-top: 40px;
+padding: 15px 50px;
+text-align: center; 
+transition: 0.5s; 
+border: none;
+cursor: pointer;
+}
+
+.isss:hover{
+background-color: darkorange;
+color: black;  
+}
+
+.isss2{
+margin-left: 50px;
+background-color: white;
+border: 1px solid silver;
+color: black;
+
+padding: 15px 50px;
+text-align: center; 
+transition: 0.5s; 
+cursor: pointer;
+}
+
+.isss2:hover{
+color: orange;
+}
+
+.ccn{
+float: right; 
+font-size: 18px; 
+font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+.Mapps ul{
+margin-left: 50px;
+line-height: 1.5;
+color: black;
+font-size: 20px;  
+}
+
+.Mapps ul li a{
+color: black;  
+}
+
+.Mapps ul li:hover{
+color: darkorange;  
+}
