@@ -10,5 +10,3 @@ class model_ls extends Model
 
 }
 
-
-

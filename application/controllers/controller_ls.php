@@ -19,6 +19,3 @@ class Controller_ls extends Controller
 	}
 
 }
-
-
-
